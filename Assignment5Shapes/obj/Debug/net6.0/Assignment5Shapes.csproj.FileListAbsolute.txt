@@ -1,0 +1,15 @@
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\Assignment5Shapes.exe
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\Assignment5Shapes.deps.json
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\Assignment5Shapes.runtimeconfig.json
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\Assignment5Shapes.dll
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\ref\Assignment5Shapes.dll
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\bin\Debug\net6.0\Assignment5Shapes.pdb
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.csproj.AssemblyReference.cache
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.AssemblyInfoInputs.cache
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.AssemblyInfo.cs
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.csproj.CoreCompileInputs.cache
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.dll
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\ref\Assignment5Shapes.dll
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.pdb
+C:\Users\16054\source\repos\Assignment5Shapes\Assignment5Shapes\obj\Debug\net6.0\Assignment5Shapes.genruntimeconfig.cache

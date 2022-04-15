@@ -19,29 +19,19 @@ namespace Assignment5Shapes
             this._width = width;
         }
 
-        //destructor
-        ~Rectangle()
-        {
-
-        }
-
         //fields
         private double _height;
         private double _width;
         public const double defaultHeight = 0;
         public const double defaultWidth = 0;
 
-        internal double whatever = 6;
-
         //properties
-        public Color Color { get; set; }
+        public double Height 
+        {
+            get { return _height; }
 
-        public double Height { get; set; }
-        //{
-        //    get { return height; }
-
-        //    set { height = value; }           
-        //}
+            set { _height = value; }           
+        }
 
         public double Width
         {
@@ -52,19 +42,40 @@ namespace Assignment5Shapes
 
 
         //methods
-        public static double CalculateArea(double height, double width)
+        private double CalculatePerimeter(double _height, double _width)
         {
-            return height * width;
-        }
-        public override double CalculateArea()
-        {
-            return CalculateArea(_height, _width);
+            return _height * _width;
         }
 
         public override double CalculatePerimeter()
         {
-            throw new NotImplementedException();
+            return CalculatePerimeter(_height, _width);
         }
 
+        public static bool operator >(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() > rec2.CalculatePerimeter();
+        }
+        public static bool operator >=(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() >= rec2.CalculatePerimeter();
+        }
+        public static bool operator <(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() < rec2.CalculatePerimeter();
+        }
+        public static bool operator <=(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() <= rec2.CalculatePerimeter();
+        }
+   
+        public static bool operator ==(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() == rec2.CalculatePerimeter();
+        }
+        public static bool operator !=(Rectangle rec1, Rectangle rec2)
+        {
+            return rec1.CalculatePerimeter() != rec2.CalculatePerimeter();
+        }
     }
 }
